@@ -1,0 +1,2403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB TV</title>
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+    <link rel="stylesheet" href="./css/fontello-embedded.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/slick.js" defer></script>
+    <script src="./js/slider.js" defer></script>
+    <script src="./js/modali.js"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- MENUBAR -->
+        <header class="menuBar">
+            <nav class="navBar">
+                <ul class="bar-ul">
+                    <li>
+                        <a href="./index.html">
+                            <img src="../assets/img/logo-tipo.png" alt="logo" class="logoSito">
+                        </a>
+                    </li>
+                    <li  class="user">
+                        <form class="search-container">
+                            <i class="icon-search"></i>
+                            <input type="text" name="search" placeholder="Cerca" class="search-bar">
+                        </form>
+                        <div class="myAccount">
+                            <span class="account-username">My Account</span> 
+                            <i class="icon-down-open"></i>
+                            <div class="menu-style">
+                                <button class="logs menu-user">
+                                    <i class="icon-login"></i>
+                                    Accedi
+                                </button>
+                                <button class="menu-user">
+                                    <a href="html/contact.html">
+                                        <i class="icon-mail-1"></i>
+                                        Contatti
+                                    </a>
+                                </button>
+                                <button class="menu-user">
+                                    <a href="#">
+                                        <i class="icon-cog"></i>
+                                        Impostazioni</a>
+                                </button>
+                                <button class="menu-user exit">
+                                    <a href="index.html">
+                                        <i class="icon-down-open"></i>
+                                        Esci</a>
+                                </button>
+                            </div>        
+                        </div>
+                        <div class="avatar">
+                            <i class="icon-user"></i>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- END MENUBAR -->
+        <main>
+            <!-- MODALE LOG IN -->
+            <div class="log-in-modale">
+                <div class="form-container">
+                    <div class="close-mod icon-cancel"></div>
+                    <div class="mask-container">
+                        <form name="logIn" id="logIn" class="logIn" method="get" autocomplete="off">
+                            <h3>Accedi</h3>
+                            <label for="email"></label>
+                            <input type="text" name="email" placeholder="Email" class="filling-input" id="email">
+                            <span class="form-error"></span> 
+                            <label for="password"></label>
+                            <input type="password"  name="password" placeholder="Password" class="filling-input" id="password">
+                            <span class="form-error"></span> 
+                            <button type="submit" class="loginBtn">Accedi</button>
+                            <div class="cont-check-log">
+                                <input type="checkbox" name="checkbox" id="checkbox">
+                                <label for="checkbox" class="form-control">
+                                    Ricordami
+                                </label>
+                            </div>
+                            <p>Prima volta su <a href="./html/register.html">Lab TV</a>?</p>
+                            <button id="signUp" class="sign-up"><a href="html/register.html">Registrati</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- END MODALE LOG IN -->
+            <!-- BIG SLIDER -->
+            <div class="lazy slider">
+                <div>
+                    <div class="one-element" id="one-element">
+                        <div class="img-container">
+                            <button class="box-btn-img" data-id="#2">
+                                <img src='../assets/img/mandalorian_big.jpg' alt="The Mandalorian" id="btn-box">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="one-element">
+                        <div class="img-container">
+                            <button class="box-btn-img" data-id="#3">
+                                <img src='../assets/img/lotr3_big.png' alt="The Lord of the Rings - Il Ritorno del Re">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="one-element">
+                        <div class="img-container">
+                            <button class="box-btn-img" data-id="#5">
+                                <img src='../assets/img/tangled_big.jpg' alt="Rapunzel">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="one-element">
+                        <div class="img-container">
+                            <button class="box-btn-img" data-id="#6">
+                                <img src='../assets/img/dragonquest_big.webp' alt="Dragonquest Your Story">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="one-element">
+                        <div class="img-container">
+                            <button class="box-btn-img" data-id="#7">
+                                <img src='../assets/img/hp_order_big.jpg' alt="Harry Potter e l'Ordine della Fenice">
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="one-element">
+                        <div class="img-container">
+                            <button class="box-btn-img" data-id="#8">
+                                <img src='../assets/img/warcraft_big.png' alt="Warcraft - L'Inizio">
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="one-element">
+                        <div class="img-container">
+                            <button class="box-btn-img" data-id="#9">
+                                <img src='../assets/img/beauty&beastLive_big.png' alt="Beauty and the Beast - Live Action">
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="one-element">
+                        <div class="img-container">
+                            <button class="box-btn-img" data-id="#4">
+                                <img src='../assets/img/ouat_big.jpg' alt="Once Upon a Time">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END BIG SLIDER -->
+            <div class="">
+                <div class="type-container">
+                    <div class="margin-type">
+                        <div>In evidenza</div>
+                    </div>
+                </div>  
+            </div>
+            <!--1 SLIDER small -->
+            <div class="carousel">
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <iframe width="1180" height="664" src="https://www.youtube.com/embed/lr8D5D92lCc?enablejsapi=1&mute=1" title="La Forma dell&#39;Acqua - The Shape of Water | Trailer Ufficiale HD | Fox Searchlight 2018" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"; allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button data-id="#1" class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>14+ • 2017 • 123 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Sentimentale </span>
+                                </p>
+                                <p> Intrappolata in una vita isolata in un laboratorio governativo di massima sicurezza, Elisa, una donna muta addetta alle pulizie, scopre un esperimento top secret.</p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/laformadellacqua.jpg" alt="La Forma dell'Acqua">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/dragonquest_your_story.jpg" alt="Dragonquest Your Story">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button data-id="#6" class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>13+ • 2019 • 103 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avvenutura</span>
+                                </p>
+                                <p>
+                                    Luca segue le orme del padre nel tentativo di salvare la madre dal perfido Skriterioska.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/dragonquest_your_story.jpg" alt="Dragonquest Your Story">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/interstellar.webp" alt="Interstellar">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 2018 • 130 • minuti</span>
+                                <p class="media-genre">
+                                    <span>• Fantascienza</span>
+                                    <span>• Avventura</span>
+                                    <span>• Drammatico </span>
+                                </p>
+                                <p> In un futuro non precisato, un drastico cambiamento climatico colpisce duramente l'agricoltura.</p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/interstellar.webp" alt="Interstellar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/greenbook.webp" alt="Green Book">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• +13 • 2018 • 130 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Biografico</span>
+                                    <span>• Commedia </span>
+                                </p>
+                                <p>
+                                    Nel 1962, Don Shirley, pianista afroamericano di fama mondiale, intraprendere una tournée nel profondo Sud del paese.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/greenbook.webp" alt="Green Book">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/howls_castle.webp" alt="Il Castello Errante di Howl">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 10+ • 2004 • 119 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Sentimentale </span>
+                                </p>
+                                <p>Sophie è una semplice ragazza di diciotto anni che gestisce il negozio di cappelli del defunto padre.</p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/howls_castle.webp" alt="Il Castello Errante di Howl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/the_untouchables.webp" alt="Gli Intoccabili">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 18+ • 1987 • 120 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Crudo</span>
+                                    <span>• Drammatico</span>
+                                    <span>• Suspense</span>
+                                </p>
+                                <p>
+                                    Gangster movie diretto da Brian De Palma. Il film è ispirato all'autobiografia dell'agente federale Eliot Ness, che aveva già dato vita alla serie televisiva Gli intoccabili con Robert Stack.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                <img src="../assets/img/the_untouchables.webp" alt="Gli Intoccabili">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/demons_slayer.webp" alt="Demon Slayer - Kimetsu no yaiba">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 16+ • 2019 - In Corso • 48 episodi</span>
+                                <p class="media-genre">
+                                    <span>• Azione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Drammatico </span>
+                                </p>
+                                <p>
+                                    Giappone, periodo Taisho. Tanjiro trova la sua famiglia massacrata da un demone mentre sua sorella minore Nezuko, unica sopravvissuta, è stata trasformata in un demone.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/demons_slayer.webp" alt="Demon Slayer - Kimetsu no yaiba">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/gladiatore.webp" alt="Il Gladiatore">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 16+ • 2000 • 155 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Epico</span>
+                                    <span>• Storico</span>
+                                    <span>• Drammatico </span>
+                                </p>
+                                <p>
+                                    Il generale romano Massimo Decimo Meridio, comandante dell'esercito del Nord, ha condotto ancora una volta i suoi legionari alla vittoria, ed ora spera di poter tornare alla sua famiglia. 
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/gladiatore.webp" alt="Il Gladiatore">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/your_name.webp" alt="Your Name">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 7+ • 2016 • 106 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Drammatico</span>
+                                    <span>• Sentimentale</span>
+                                </p>
+                                <p>
+                                    Una ragazza annoiata che vive in campagna inizia a svegliarsi ogni tanto nel corpo di un ragazzo di città che fa la vita emozionante che lei aveva sempre sognato.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/your_name.webp" alt="Your Name">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/memorie_geisha.webp" alt="Memorie di una Geisha">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 16+ • 2005 • 139 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Storico</span>
+                                    <span>• Sentimentale</span>
+                                </p>
+                                <p>
+                                    Venduta da piccola a una casa delle geishe, la figlia di un pescatore diventa la geisha più ambita di Kyoto. Ma le rivalità minacciano il destino che desidera.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/memorie_geisha.webp" alt="Memorie di una Geisha">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/cera_una_volta_a_hollywood.webp" alt="C'era una volta a Hollywood">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 18+ • 2019 • 161 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Commedia</span>
+                                    <span>• Ucronico </span>
+                                </p>
+                                <p>
+                                    Rick Dalton è un attore televisivo di telefilm western in declino e Cliff Booth la sua controfigura. I due cercano di ottenere ingaggi e fortuna nell'industria cinematografica, al tramonto dell'età dell'oro di Hollywood.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/cera_una_volta_a_hollywood.webp" alt="C'era una volta a Hollywood">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/alienista.jpg" alt="L'Alienista">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 16+ • 2018 - 2020 • 18 episodi</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Thriller</span>
+                                    <span>• Serie TV </span>
+                                </p>
+                                <p>
+                                    Sally aiuta Kreizler a capire meglio i rapporti delle vittime con il killer. Viene trovato un nuovo corpo e Sara nota che il luogo del suo rinvenimento segue uno schema.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/alienista.jpg" alt="L'Alienista">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/spotlight.jpg" alt="Spotlight">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 15+ • 2015 • 127 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Thriller</span>
+                                    <span>• Coinvolgente</span>
+                                </p>
+                                <p>
+                                    Una squadra di giornalisti del Boston Globe conduce un'inchiesta che porta a una scioccante verità: la complicità della Chiesa in una vasta gamma di casi di abusi su minori.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/spotlight.jpg" alt="Spotlight">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/wanda_vision.jpg" alt="Wanda Vision">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 12+ • 2021 • 9 episodi</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Sci-fi</span>
+                                    <span>• Supereroi</span>
+                                </p>
+                                <p>
+                                    La serie unisce lo stile delle sitcom classiche all'Universo Marvel. Wanda Maximoff e Visione conducono una vita tranquilla in periferia, ma iniziano a sospettare che niente è come sembra.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/wanda_vision.jpg" alt="Wanda Vision">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/sherlock.webp" alt="Sherlock">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 13+ • 2010 - 2018 • 12 episodi</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Thriller</span>
+                                    <span>• Suspense</span>
+                                </p>
+                                <p>
+                                    Le indagini dell'investigatore Sherlock Holmes, un brillante ma eccentrico sociopatico, e del fidato Watson, un veterano di guerra tornato dall'Afghanistan.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/sherlock.webp" alt="Sherlock">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--1 fine SLIDER small -->    
+            <div class="">
+                <div class="type-container">
+                    <div class="margin-type">
+                        <div>Film di Animazione</div>
+                    </div>
+                </div>  
+            </div>
+            <!--2 SLIDER small -->
+            <div class="carousel">
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <iframe width="1280" height="704" src="https://www.youtube.com/embed/0quV2Mhb5Ho?enablejsapi=1&mute=1" title="La Bella e la Bestia Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 1991 • 87 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Sentimentale </span>
+                                </p>
+                                <p>
+                                    Un giovane principe superbo ed egoista viene tramutato in bestia per mano di una fata. L'incantesimo si romperà solo se una fanciulla si innamorerà di lui.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/beautyandthebeast.jpg" alt="La Bella e la Bestia">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/Vt48pnfqptI?enablejsapi=1&mute=1" title="Hercules (1997) - Inizio (La Nascita Di Pegaso) [UHD]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button data-id="#10" class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 1997 • 93 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Commedia</span>
+                                </p>
+                                <p>
+                                    Hercules, figlio di Zeus e Hera, è metà divinità e metà uomo e vuole dimostrare di essere un vero eroe per meritarsi un posto sul Monte Olimpo.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/hercules.jpg" alt="Hercules">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <iframe width="1280" height="686" src="https://www.youtube.com/embed/_jnncX1UJDU?enablejsapi=1&mute=1" title="Rapunzel - L&#39;intreccio della torre - Padellate, clip dal film" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button data-id="#5" class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2010 • 100 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Musicale</span>
+                                    <span>• Sentimentale </span>
+                                </p>
+                                <p>
+                                    Rapunzel è una bella e stravagante ragazza dagli splendidi capelli d'oro, lunghi oltre venti metri, che vive reclusa in un'altissima torre.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/rapunzel.jpg" alt="Rapunzel">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/brave.jpg" alt="Brave">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button data-id="#14" class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2012 • 94 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Famiglia</span>
+                                </p>
+                                <p>
+                                    Decisa a ritagliarsi il suo posto nel mondo, Merida sfida le consuetudini. Quando scatena il caos nel regno, deve sfruttare le sue abilità per annullare una maledizione e scoprire cos'è il coraggio.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/brave.jpg" alt="Brave">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/coco.jpg" alt="Coco">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2017 • 104 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Famiglia</span>
+                                    <span>• Musical</span>
+                                </p>
+                                <p>
+                                    La straordinaria avventura di un ragazzo che sogna di diventare un grande musicista e inizia un viaggio per scoprire i misteri celati dietro le storie e le tradizioni dei suoi antenati.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/coco.jpg" alt="Coco">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/monstersandco.jpg" alt="Monsters & Co."> 
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2001 • 92 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Commedia</span>
+                                    <span>• Famiglia</span>
+                                </p>
+                                <p>
+                                    Una bambina di nome Boo vaga nel mondo dei mostri, ma sono i mostri ad essere spaventati. Spetta a Sulley e Mike, la migliore squadra di spavento, tenerla nascosta e riportarla a casa.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/monstersandco.jpg" alt="Monsters & Co.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/mulan.jpg" alt="Mulan">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 1998 • 96 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Azione</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Mulan, travestita da soldato, prende il posto del padre nell'Esercizio Imperiale Cinese. Aiutata dal drago Mushu e dal grillo Cri-Cri, Mulan avrà nelle sue mani l'onore della sua famiglia e il destino della Cina.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/mulan.jpg" alt="Mulan">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/raya.jpg" alt="Raya e l'ultimo Drago">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2021 • 107 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Dopo 500 anni, la guerriera Raya deve trovare l'ultimo leggendario drago per fermare le forze del male che ancora una volta minacciano di distruggere il mondo.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/raya.jpg" alt="Raya e l'ultimo Drago">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/fantasia2000.jpg" alt="Fantasia 2000">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2000 • 76 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Musical</span>
+                                </p>
+                                <p>
+                                    Sette nuove selezioni musicali compongono questa versione moderna del classico Disney. Una nuova generazione di animatori mescola animazione tradizionale e stile moderno.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/fantasia2000.jpg" alt="Fantasia 2000">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/walle.jpg" alt="WALL·E">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2008 • 98 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Avventura</span>
+                                    <span>• Famiglia</span>
+                                </p>
+                                <p>
+                                    Dopo aver trascorso centinaia di anni da solo a fare ciò per cui è stato costruito, WALL-E trova un nuovo scopo quando incontra una robot di nome EVE.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/walle.jpg" alt="WALL·E">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/sleepingbeauty.jpg" alt="La Bella Addormentata nel Bosco">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 1959 • 78 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Romantico</span>
+                                    <span>• Animazione</span>
+                                    <span>• Famiglia </span>
+                                </p>
+                                <p>
+                                    Il film narra la storia della principessa Autora e dell'incantesimo della vendicativa strega Malefica. Solo il bacio del vero amore potrà spezzarlo.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/sleepingbeauty.jpg" alt="La Bella Addormentata nel Bosco">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/frozenii.jpg" alt="Frozen 2 - Il Segreto di Arendelle">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2019 • 103 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Avventura</span>
+                                    <span>• Musical </span>
+                                </p>
+                                <p>
+                                    Insieme ad Anna, Kristoff, Olaf e Sven, Elsa affronta un pericoloso ma straordinario viaggio verso l'ignotoalla ricerca delle verità sul passato.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/frozenii.jpg" alt="Frozen 2 - Il Segreto di Arendelle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/thenightmarebeforechristmas.jpg" alt="Nightmare Before Christmas">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 1993 • 86 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Grottesco</span>
+                                </p>
+                                <p>
+                                    Jack è il re della città di Halloween dopo aver scoperto l'esistenza di un mondo dedicato al Natale, decide di portare questa nuova festa ai suoi concittadini, con esiti del tutto imprevisti.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/thenightmarebeforechristmas.jpg" alt="Nightmare Before Christmas">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/oceania.jpg" alt="Oceania">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2016 • 113 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Avventura</span>
+                                    <span>• Musical</span>
+                                </p>
+                                <p>
+                                    Vaiana intraprende un'avventura per dimostrarsi esperta navigatrice e portare a termine la missione dei suoi antenati.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/oceania.jpg" alt="Oceania">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/ratatouille.jpg" alt="Ratatouille">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2007 • 107 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Animazione</span>
+                                    <span>• Commedia</span>
+                                    <span>• Famiglia</span>
+                                </p>
+                                <p>
+                                    Remy, un topolino parigino, sogna di diventare un grande chef per poter proporre a tutti le sue prelibate ricette. Quando finisce nel seminterrato di uno dei ristoranti più rinomati della città, decide di rimanerci e imparare a cucinare.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/ratatouille.jpg" alt="Ratatouille">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--2 fine SLIDER small -->        
+            <div class="">
+                <div class="type-container">
+                    <div class="margin-type">
+                        <div>Film Fantasy</div>
+                    </div>
+                </div>  
+            </div>
+            <!--3 SLIDER small -->
+            <div class="carousel">
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <iframe width="640" height="360" src="https://www.youtube.com/embed/Udea49oonZ0?enablejsapi=1&mute=1" title="WARCRAFT - L&#39;INIZIO di Duncan Jones: Trailer italiano ufficiale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button data-id="#8" class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 16+ • 2016 • 124 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Azione</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Epico </span>
+                                </p>
+                                <p>
+                                    Il pacifico regno di Azeroth è sul piede di guerra e la sua civiltà si trova ad affrontare una terribile stirpe di invasori.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/warcraft.webp" alt="Warcfraft - L'Inizio">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <iframe width="640" height="360" src="https://www.youtube.com/embed/AK4bpQ_LsAw?enablejsapi=1&mute=1" title="Harry Potter e l&#39;Ordine della Fenice - I Primi minuti!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button data-id="#7" class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 13+ • 2007 • 138 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Consapevole che il suo avvertimento sul ritorno di Voldemort è stato ignorato, Harry insegna a un gruppo di studenti come difendersi dalle arti oscure. 
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/hp_05.webp" alt="Harry Potter e l'Ordine della Fenice">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/661Sgqomwtw?enablejsapi=1&mute=1" title="Primi Minuti | Il Signore degli Anelli - Il Ritorno del Re" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button data-id='#3' class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• PT • 2018 • 130 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Azione </span>
+                                </p>
+                                <p>
+                                    Guidati da Gollum, Frodo e Sam sono sempre più vicini a Mordor e alla fine della loro missione.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/lotr_03.webp" alt="Lord of the Rings - Il Ritorno del Re">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/hp_01.webp" alt="Harry Potter e la Pietra Filosofale">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 10+ • 2001 • 152 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Il giorno del suo undicesimo compleanno, Harry Potter scopre di essere un potente mago e di essere atteso alla Scuola di magia e stregoneria di Hogwarts.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/hp_01.webp" alt="Harry Potter e la Pietra Filosofale">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/hp_02.webp" alt="Harry Potter e la Camera dei Segreti">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 10+ • 2002 • 150 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Harry ignora Dobby che lo avverte di non tornare a Hogwarts e si unisce a Ron e Hermione per indagare su una serie di misteriosi fenomeni.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/hp_02.webp" alt="Harry Potter e la Camera dei Segreti">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/hp_03.webp" alt="Harry Potter e il Prigioniero di Azkaban">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 10+ • 2004 • 141 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Al terzo anno a Hogwarts, Harry affronta l'ennesimo pericolo mortale quando il seguace di Voldemort Sirius Black evade dalla prigione per dargli la caccia.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/hp_03.webp" alt="Harry Potter e il Prigioniero di Azkaban">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/hp_04.webp" alt="Harry Potter e il Calice di Fuoco">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 13+ • 2005 • 157 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Al suo quarto anno a Hogwarts, Harry Potter partecipa all'insidioso Torneo Tremaghi insieme ad altri giovani maghi che frequentano scuole di paesi lontani.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/hp_04.webp" alt="Harry Potter e il Calice di Fuoco">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/hp_06.webp" alt="Harry Potter e il Principe Mezzosangue">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 13+ • 2009 • 153 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Quando trova un libro di proprietà del misterioso Principe Mezzosangue, Harry lo usa per avvicinarsi all'unica persona che potrebbe sapere come sconfiggere Voldemort.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/hp_06.webp" alt="Harry Potter e il Principe Mezzosangue">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/hp_07a.webp" alt="Harry Potter e i Doni della Morte - Parte 1">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 13+ • 2010 • 146 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Il penultimo capitolo della saga di Harry Potter vede il giovane mago lasciare Hogwarts per distruggere gli Horcrux rimasti.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/hp_07a.webp" alt="Harry Potter e i Doni della Morte - Parte 1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/hp_07b.webp" alt="Harry Potter e i Doni della Morte - Parte 2">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 13+ • 2011 • 130 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Proprio quando la situazione sembra ormai senza speranza, Harry scopre tre oggetti magici che gli conferiscono poteri in grado di fronteggiare le abilità di Voldemort.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/hp_07b.webp" alt="Harry Potter e i Doni della Morte - Parte 2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/fb_01.webp" alt="Animali Fantastici e dove trovarli">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 13+ • 2016 • 133 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Arrivato a New York, Newt Scamander pensa che tutto stia andando per il verso giusto, se non fosse per la fuga di alcuni degli Animali Fantastici che potrebbero causare molti problemi sia nel mondo magico che in quello babbano.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/fb_01.webp" alt="Animali Fantastici e dove trovarli">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/fb_02.webp" alt="Animali Fantastici - I Crimini di Grindelwald">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 13+ • 2018 • 134 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Avventura</span>
+                                </p>
+                                <p>
+                                    Nel tentativo di contrastare i piani di dominio di Grindelwald, Albus Silente arruola il proprio ex studente Newt Scamandro, ignaro dei reali pericoli che lo attendono in un mondo della magia sempre più diviso.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/fb_02.webp" alt="Animali Fantastici - I Crimini di Grindelwald">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/lotr_01.webp" alt="Il Signore degli Anelli - La Compagnia dell'Anello">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 16+ • 2001 • 178 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Azione </span>
+                                </p>
+                                <p>
+                                    Dall'idilliaca terra degli hobbit agli abissi fumosi di Mordor, Frodo Baggins intraprede la sua epica ricerca per distruggere l'anello di Sauron.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/lotr_01.webp" alt="Il Signore degli Anelli - La Compagnia dell'Anello">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/the_witcher.jpg" alt="The Witcher">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 16+ • 2019 - In corso • 16 episodi</span>
+                                <p class="media-genre">
+                                    <span>• Avventura</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Drammatico</span>
+                                </p>
+                                <p>
+                                    In un mondo abitato da diverse creature magiche, Geralt, un cacciatore di mostri mutante dagli incredibili poteri, deve combattere per salvare le specie pacifiche da quelle bellicose.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/the_witcher.jpg" alt="The Witcher">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mini-box-container">
+                        <div class="modale-media"> 
+                            <div class="container-frame">
+                                <div class="one-container-frame">
+                                    <img src="../assets/img/lotr_02.webp" alt="Lord of the Rings - Le Due Torri">
+                                </div>
+                            </div>
+                            <div class="media-details-medium">
+                                <div class="button-icons-medium">
+                                    <button class="play-button icon-play"></button>
+                                    <button class="icon-plus-1"></button>
+                                    <button class="icon-heart-empty-1"></button>
+                                    <button class="box-btn icon-down-open"></button>
+                                </div>
+                                <span>• 16+ • 2002 • 179 minuti</span>
+                                <p class="media-genre">
+                                    <span>• Drammatico</span>
+                                    <span>• Fantasy</span>
+                                    <span>• Azione </span>
+                                </p>
+                                <p>
+                                    Gollum segue Frodo e Sam nel viaggio per distruggere l'Unico Anello, mentre gli altri membri della Compagnia si riuniscono con Gandalf e combattono una legione malvagia.
+                                </p>
+                            </div>   
+                        </div>
+                        <div>
+                            <div class="img-container">
+                                    <img src="../assets/img/lotr_02.webp" alt="Lord of the Rings - Le Due Torri">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--3 fine SLIDER small -->
+        </main>
+        <!-- MODALI FILM SERIE TV -->
+        <div class="media-full-container" id="1">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#1"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="1180" height="664" src="https://www.youtube.com/embed/lr8D5D92lCc?enablejsapi=1&mute=1" title="La Forma dell&#39;Acqua - The Shape of Water | Trailer Ufficiale HD | Fox Searchlight 2018" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/The_Shape_of_Water_logo_256.png" alt="Logo The Shape of Water" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• 16+ • 2017 • 123 minuti</span>
+                        <span class="plot-media">
+                            Dal maestro della narrazione Guillermo del Toro, una favola ultraterrena ambientata durante la Guerra Fredda in America negli anni ’60. Intrappolata in una vita isolata in un laboratorio governativo di massima sicurezza, Elisa (Sally Hawkins), una donna muta addetta alle pulizie, scopre un esperimento top secret. Da lì comincia un inaspettato viaggio trasformativo amoroso, in questa magica storia che vede protagonista anche Octavia Spencer.                        
+                        </span> 
+                        <p>
+                            <span>Director:</span> Guillermo del Toro
+                                <br>
+                                <br>
+                                <span>Starring:</span> Sally Hawkins, Octavia Spencer, Michael Shannon, Richard Jenkins, Doug Jones, Michael Stuhlbarg
+                                <br>
+                                <br>
+                                <span>Generi:</span> Drammatico, Fantasy, Sentimentale                                
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="media-full-container" id="2">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#2"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="1280" height="532" src="https://www.youtube.com/embed/aOC8E8z_ifw?enablejsapi=1&mute=1" title="The Mandalorian | Official Trailer | Disney+ | Streaming Nov. 12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/mandalorian_logo_182.png" alt="Logo The Mandalorian" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• 14+ • 2019 - 2023 • 3 Stagioni</span>
+                        <span class="plot-media">
+                            Dopo la caduta dell'Impero, un Mandaloriano solitario viaggia per la galassia con il suo protetto Grogu.                            
+                        </span> 
+                        <p>
+                            <span>Director:</span>
+                                <br>
+                                <br>
+                                <span>Starring:</span>
+                                <br>
+                                <br>
+                                <span>Generi:</span> Sci-fi, Azione e Avventura                                
+                        </p>
+                        <div class="season-btn">
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                        </div>
+                        <div class="episode-container">
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/mandalorian/mandalorians1ep1.jpg" alt="Episodio 1">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>1. Capitolo 1: Il Mandaloriano (41 min)</h3>
+                                <br>
+                                <span>Un cacciatore di taglie mandaloriano accetta un incarico misterioso da un cliente molto ricco.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/mandalorian/mandalorians1ep2.jpg" alt="Episodio 2">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>2. Capitolo 2: Il Bambino (34 min)</h3>
+                                <br>
+                                <span>Dopo aver salvato il Bambino, il Mandaloriano deve fronteggiare un gruppo di mercanti di rottami.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/mandalorian/mandalorians1ep3.jpg" alt="Episodio 3">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>3. Capitolo 3: Il Peccato (39 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano torna dal cliente per la ricompensa, ma non tutti gli affari finiscono bene.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/mandalorian/mandalorians1ep4.jpg" alt="Episodio 4">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>4. Capitolo 4: Il Rifugio (43 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano si allea con una ex soldatessa per difendere un villaggio da una banda di predoni.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/mandalorian/mandalorians1ep5.jpg" alt="Episodio 5">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>5. Capitolo 5: Il Pistolero (37 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano aiuta un cacciatore di taglie inesperto che si è montato la testa.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/mandalorian/mandalorians1ep6.jpg" alt="Episodio 6">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>6. Capitolo 6: Il Prigioniero (45 min)</h3>                                
+                                <br>
+                                <span>Il Mandaloriano entra in una squadra di mercenari per far evadere un detenuto da una nave prigione.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/mandalorian/mandalorians1ep7.jpg" alt="Episodio 7">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>7. Capitolo 7: La resa dei conti (42 min)</h3>
+                                <br>
+                                <span>Un vecchio contatto invia al Mandaloriano la proposta di fare pace con i suoi nemici.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/mandalorian/mandalorians1ep8.jpg" alt="Episodio 8">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                        </div>  
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="media-full-container" id="3">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#3"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/661Sgqomwtw?enablejsapi=1&mute=1" title="Primi Minuti | Il Signore degli Anelli - Il Ritorno del Re" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/lotr3.png" alt="Logo Lord of the Rings - Il ritorno del Re" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• 13+ • 2003 • 200 minuti</span>
+                        <span class="plot-media">
+                            Guidati da Gollum, Frodo e Sam sono sempre più vicini a Mordor e alla fine della loro missione. Nel frattempo Aragorn conduce una battaglia contro Sauron per salvare Gondor.                            
+                        </span> 
+                        <p>
+                            <span>Director:</span> Peter Jackson
+                                <br>
+                                <br>
+                                <span>Starring:</span> Elijah Wood, Ian McKellen, Viggo Mortensen, Liv Tyler, Sean Astin, Cate Blanchett, John Rhys-Davies, Bernard Hill, Billy Boyd, Dominic Monaghan, Orlando Bloom, Hugo Weaving
+                                <br>
+                                <br>
+                                <span>Generi:</span> Fantasy, Avventura, Azione, Epico, Drammatico                                
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="media-full-container" id="4">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#4"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/Ah_h88JNlmM?enablejsapi=1&mute=1" title="Once Upon A Time Season 1 Trailer [HD]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/Once_Upon_A_Time_Logo.png" alt="Logo Once Upon a Time" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• 12+ • 2011 - 2017 • 7 Stagioni</span>
+                        <span class="plot-media">
+                            Dopo essere riuscito a portare Emma a Storybrooke, Henry cerca disperatamente di convincerla a credere nel sortilegio. Nel mondo delle favole, i personaggi vivono nel costante timore della Regina Cattiva.                           
+                        </span> 
+                        <p>
+                            <span>Director:</span>
+                                <br>
+                                <br>
+                                <span>Starring:</span>
+                                <br>
+                                <br>
+                                <span>Generi:</span> Sci-fi, Azione e Avventura                                
+                        </p>
+                        <div class="season-btn">
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
+                            <button>7</button>
+                        </div>
+                        <div class="episode-container">
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep1.jpg" alt="Episodio 1">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>1. Capitolo 1: Il Mandaloriano (41 min)</h3>
+                                <br>
+                                <span>Un cacciatore di taglie mandaloriano accetta un incarico misterioso da un cliente molto ricco.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep2.jpg" alt="Episodio 2">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>2. Capitolo 2: Il Bambino (34 min)</h3>
+                                <br>
+                                <span>Dopo aver salvato il Bambino, il Mandaloriano deve fronteggiare un gruppo di mercanti di rottami.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep3.jpg" alt="Episodio 3">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>3. Capitolo 3: Il Peccato (39 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano torna dal cliente per la ricompensa, ma non tutti gli affari finiscono bene.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep4.jpg" alt="Episodio 4">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>4. Capitolo 4: Il Rifugio (43 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano si allea con una ex soldatessa per difendere un villaggio da una banda di predoni.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep5.jpg" alt="Episodio 5">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>5. Capitolo 5: Il Pistolero (37 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano aiuta un cacciatore di taglie inesperto che si è montato la testa.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>                                
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep6.jpg" alt="Episodio 6">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>6. Capitolo 6: Il Prigioniero (45 min)</h3>                                
+                                <br>
+                                <span>Il Mandaloriano entra in una squadra di mercenari per far evadere un detenuto da una nave prigione.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep7.jpg" alt="Episodio 7">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>7. Capitolo 7: La resa dei conti (42 min)</h3>
+                                <br>
+                                <span>Un vecchio contatto invia al Mandaloriano la proposta di fare pace con i suoi nemici.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep8.jpg" alt="Episodio 8">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep9.jpg" alt="Episodio 9">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep10.jpg" alt="Episodio 10">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep11.jpg" alt="Episodio 11">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep12.jpg" alt="Episodio 12">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep13.jpg" alt="Episodio 13">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep14.jpg" alt="Episodio 14">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep15.jpg" alt="Episodio 15">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep16.jpg" alt="Episodio 16">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep17.jpg" alt="Episodio 17">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep18.jpg" alt="Episodio 18">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep19.jpg" alt="Episodio 19">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep20.jpg" alt="Episodio 20">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep21.jpg" alt="Episodio 21">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                            <div class="img-episode">
+                                <button class="play-episode-btn">
+                                    <i class="icon-play-circle2"></i>
+                                </button>
+                                <img src="../assets/img/tvseries/once_upon_a_time/onceuponatimes1ep22.jpg" alt="Episodio 22">
+                            </div>
+                            <div class="plot-episode">
+                                <h3>8. Capitolo 8: Redenzione (50 min)</h3>
+                                <br>
+                                <span>Il Mandaloriano e i suoi alleati affrontano il loro vero nemico, che sa già molto sul loro conto.</span>
+                            </div>
+                        </div>  
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="media-full-container" id="5">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#5"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="1280" height="686" src="https://www.youtube.com/embed/_jnncX1UJDU?enablejsapi=1&mute=1" title="Rapunzel - L&#39;intreccio della torre - Padellate, clip dal film" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/tangledlogo.png" alt="Logo Rapunzel" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• PT • 2010 • 100 minuti</span>
+                        <span class="plot-media">
+                            Flynn Rider è un affascinante bandito che, grazie al suo bell'aspetto, alla parlantina sciolta e a una discreta dose di fortuna, ha sempre avuto vita facile. Rapunzel, invece, è una bella e stravagante ragazza dagli splendidi capelli d'oro, lunghi oltre venti metri, che vive reclusa in un'altissima torre. Un giorno, mentre è in fuga dalle autorità, Flynn trova riparo proprio nella torre in cui è confinata Rapunzel.                          
+                        </span> 
+                        <p>
+                            <span>Director:</span> Nathan Greno, Byron Howard
+                                <br>
+                                <br>
+                                <span>Starring:</span> Mandy Moore, Zachary Levi, Ron Perlman, Nathan Greno, Donna Murphy 
+                                <br>
+                                <br>
+                                <span>Generi:</span> Animazione, Commedia, Sentimentale, Musicale                                
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="media-full-container" id="6">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#6"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/cPry28ciXBM?enablejsapi=1&mute=1" title="Dragon Quest - Your Story - First Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/dragonquest_logo.png" alt="Dragonquest Your Story" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• PT • 2019 • 103 minuti</span>
+                        <span class="plot-media">
+                            Luca segue le orme del padre nel tentativo di salvare la madre dal perfido Skriterioska. L'unica speranza è trovare l'eroe leggendario che brandisce la spada zenitiana.                           
+                        </span> 
+                        <p>
+                            <span>Director:</span> Takashi Yamazaki
+                                <br>
+                                <br>
+                                <span>Starring:</span> Takeru Satoh, Kasumi Arimura, Haru 
+                                <br>
+                                <br>
+                                <span>Generi:</span> Animazione, Fantasy, Avventura                                
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="media-full-container" id="7">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#7"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/AK4bpQ_LsAw?enablejsapi=1&mute=1" title="Harry Potter e l&#39;Ordine della Fenice - I Primi minuti!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/hp_order_logo.jpg.png" alt="Harry Potter e l'Ordine della Fenice" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• 13+ • 2007 • 138 minuti</span>
+                        <span class="plot-media">
+                            Consapevole che il suo avvertimento sul ritorno di Voldemort è stato ignorato, Harry insegna a un gruppo di studenti come difendersi dalle arti oscure.                          
+                        </span> 
+                        <p>
+                            <span>Director:</span> Christopher Nolan
+                                <br>
+                                <br>
+                                <span>Starring:</span> Daniel Radcliffe, Rupert Grint, Emma Watson, Helena Bonham Carter, Robbie Coltrane, Ralph Fiennes, Michael Gambon, Brendan Gleeson, Richard Griffiths, Jason Isaacs, Gary Oldman, Alan Rickman, Imelda Staunton
+                                <br>
+                                <br>
+                                <span>Generi:</span> Fantasy, Avventura, Drammatico, Azione                                
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="media-full-container" id="8">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#8"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/Udea49oonZ0?enablejsapi=1&mute=1" title="WARCRAFT - L&#39;INIZIO di Duncan Jones: Trailer italiano ufficiale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/warcraft_logo.png" alt="Warcfraft - L'Inizio" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• 16+ • 2016 • 124 minuti</span>
+                        <span class="plot-media">
+                            Il pacifico regno di Azeroth è sul piede di guerra e la sua civiltà si trova ad affrontare una terribile stirpe di invasori: i guerrieri Orchi in fuga dalla loro terra agonizzante e pronti a colonizzarne un’altra. Quando il portale che collega i due mondi si apre, un esercito va incontro alla distruzione, mentre l’altro rischia l’estinzione.                        
+                        </span> 
+                        <p>
+                            <span>Director:</span> Duncan Jones
+                                <br>
+                                <br>
+                                <span>Starring:</span> Travis Fimmel, Paula Patton, Ben Foster, Dominic Cooper, Toby Kebbell, Ben Schnetzer, Robert Kazinsky, Clancy Brown, Daniel Wu, Ruth Negga, Anna Galvin, Callum Keith Rennie
+                                <br>
+                                <br>
+                                <span>Generi:</span> Fantasy, Epico, Avventura, Azione                                
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="media-full-container" id="9">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#9"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="621" height="259" src="https://www.youtube.com/embed/yNrTU-DY13I?enablejsapi=1&mute=1" title="La Bella e la Bestia - Nuovo Trailer Italiano Ufficiale | HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/beautybeastlivelogo.png" alt="La Bella e la Bestia Live Action" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• 12+ • 2017 • 140 minuti</span>
+                        <span class="plot-media">
+                            Il fantastico viaggio di Belle, una ragazza brillante, bella e indipendente che parte per salvare suo padre ma viene imprigionata da una Bestia. Nonostante la paura, impara a guardare oltre l'orribile aspetto della Bestia per accorgersi del suo cuore gentile.                        
+                        </span> 
+                        <p>
+                            <span>Director:</span> Bill Condon
+                                <br>
+                                <br>
+                                <span>Starring:</span> Emma Watson, Dan Stevens, Luke Evans, Kevin Kline, Josh Gad, Ewan McGregor, Stanley Tucci, Ian McKellen, Emma Thompson
+                                <br>
+                                <br>
+                                <span>Generi:</span> Romantico, Fantasy, Musical, Famiglia                                
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="media-full-container" id="10">
+            <div class="media-container">
+                <div class="close-media icon-cancel" data-id="#10"></div>
+                <div class="mask-media-container">
+                    <div class="container-media-frame">
+                        <div class="media-container-frame">
+                            <iframe width="1280" height="720" src="https://www.youtube.com/embed/Vt48pnfqptI?enablejsapi=1&mute=1" title="Hercules (1997) - Inizio (La Nascita Di Pegaso) [UHD]" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="media-details">
+                        <img src="../assets/img/Hercules.webp" alt="Hercules" class="logo-on-video">
+                        <div class="button-icons">
+                            <div class="btn-flex-content">
+                                <button class="play-button icon-play"></button>
+                                <button class="icon-plus-1"></button>
+                                <button class="icon-heart-empty-1"></button>
+                            </div>
+                        </div>
+                        <span>• PT • 1997 • 93 minuti</span>
+                        <span class="plot-media">
+                            Hercules, figlio di Zeus e Hera, è metà divinità e metà uomo e vuole dimostrare di essere un vero eroe per meritarsi un posto sul Monte Olimpo.                       
+                        </span> 
+                        <p>
+                            <span>Director:</span> Ron Clements, John Musker
+                                <br>
+                                <br>
+                                <span>Starring:</span> Tate Donovan, Josh Keaton, Roger Bart, Danny DeVito, James Woods, Susan Egan, Rip Torn, Samantha Eggar, Lillias White, Cheryl Freeman, LaChanze, Roz Ryan, Vanéese Y. Thomas, Bobcat Goldthwait, Matt Frewer, Patrick Pinney, Hal Holbrook, Barbara Barrie, Amanda Plummer, Carole Shelley, Paddi Edwards, Paul Shaffer, Jim Cummings, Charlton Heston
+                                <br>
+                                <br>
+                                <span>Generi:</span> Animazione, Fantasy, Sentimentale, Commedia                                
+                        </p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <footer>
+                <ul class="social-container">
+                    <li>
+                        <a href="https://www.facebook.com/labfortraining" class="icon-facebook-squared"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/labfortraining.it/" class="icon-instagram"></a>
+                    </li>
+                    <li><a href="https://www.youtube.com/" class='icon-youtube-squared'></a>
+                    </li>
+                </ul>
+        </footer>
+    </div>
+</body>
+</html>

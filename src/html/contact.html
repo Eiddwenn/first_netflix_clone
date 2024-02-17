@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <link rel="stylesheet" href="../css/fontello-embedded.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../js/contact.js" defer></script>
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="menuBar">
+            <nav class="navBar">
+                <ul class="bar-ul">
+                    <li>
+                        <a href="../index.html">
+                            <img src="../../assets/img/logo-tipo.png" alt="logo" class="logoSito">
+                        </a>
+                    </li>
+                    <li  class="user">
+                        <form class="search-container">
+                            <i class="icon-search"></i>
+                            <input type="text" name="search" placeholder="Cerca" class="search-bar">
+                        </form>
+                        <span class="myAccount">My Account
+                            <i class="icon-down-open"></i>
+                            <div class="menu-style">
+                                <button class="logs menu-user">
+                                    <i class="icon-login"></i>
+                                    Accedi
+                                </button>
+                                <button class="menu-user">
+                                    <a href="contact.html">
+                                        <i class="icon-mail-1"></i>
+                                        Contatti
+                                    </a>
+                                </button>
+                                <button class="menu-user">
+                                    <a href="#">
+                                        <i class="icon-cog"></i>
+                                        Impostazioni</a>
+                                </button>
+                                <button class="menu-user">
+                                    <a href="../index.html">
+                                        <i class="icon-down-open"></i>
+                                        Esci</a>
+                                </button>
+                            </div>        
+                        </span>
+                        <div class="avatar">
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- END MENUBAR -->
+        <main>
+            <!-- MODALE LOG IN -->
+            <div class="log-in-modale">
+                <div class="form-container">
+                    <div class="close-mod icon-cancel"></div>
+                    <div class="mask-container">
+                        <form name="logIn" id="logIn" class="logIn" method="get" autocomplete="off">
+                            <h3>Accedi</h3>
+                            <label for="email"></label>
+                            <input type="text" name="email" placeholder="Email" class="filling-input">
+                            <span class="form-error"></span> 
+                            <label for="password"></label>
+                            <input type="password"  name="password" placeholder="Password" class="filling-input">
+                            <span class="form-error"></span> 
+                            <button type="submit" class="loginBtn">Accedi</button>
+                            <div class="cont-check-log">
+                                <input type="checkbox" name="checkbox" id="checkbox">
+                                <label for="checkbox" class="form-control">
+                                    Ricordami
+                                </label>
+                            </div>
+                            <p>Prima volta su <a href="register.html">Lab TV</a>?</p>
+                            <button id="signUp" class="sign-up"><a href="register.html">Registrati</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- END MODALE LOG IN -->
+                    <div class="contact-container">
+                    <div class="contact-form-container">
+                        <form name="contactForm" id="contact-form" class="contact-form" method="get" autocomplete="off">
+                            <h3>Contattaci</h3>
+                            <label for="name"></label>
+                            <input type="text" id="name" name="name" placeholder="Name" class="input-style">
+                            <span class="form-error-c one"></span> 
+
+                            <label for="surname"></label>
+                            <input type="text" id="surname" name="surname" placeholder="surname" class="input-style">
+                            <span class="form-error-c two"></span> 
+
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Email" class="input-style">
+                            <span class="form-error-c three"></span> 
+
+                            <label for="number"></label>
+                            <input type="text" id="number" name="number" placeholder="Number" class="input-style">
+                            <span class="form-error-c four"></span> 
+
+                            <textarea name="textarea" id="textarea" form="contactForm" placeholder="Scrivi il messaggio..." class="input-style"></textarea>
+                            <span class="form-error-c five"></span> 
+
+                            <div class="cont-check-log">
+                                <input type="checkbox" name="checkbox" id="checkbox">
+                                <span class="form-error-c six"></span> 
+                                <label for="checkbox" class="form-control">
+                                    Privacy
+                                </label>
+                            </div>
+        
+                            <button id="contactBtn" type="submit" class="contactBtn">Invia</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-message">
+                    <div class="message-container">
+                        <div class="close-message">x</div>
+                        <div class="mask-message-container">
+                            <h3>Registrazione Completa!</h3>
+                            <span class="message">Grazie per averci contattato!
+                                <br>
+                                Cercheremo di rispondere il prima possibile.
+                            </span> 
+                            <p>Vuoi tornare alla <a href="../index.html">Home</a>?</p>
+                        </div>
+                    </div>
+                </div>
+                </main>
+                <footer>
+                    <ul class="social-container">
+                        <li>
+                            <a href="https://www.facebook.com/labfortraining" class="icon-facebook-squared"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/labfortraining.it/" class="icon-instagram"></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/" class='icon-youtube-squared'></a>
+                        </li>
+                    </ul>
+            </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,273 @@
+body {
+    overflow-y: hidden;
+}
+.register-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.register-form-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.register-form h3 {
+    grid-area: h3;
+    color: #E93852ff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.form-error-r {
+    color: #EF483Eff;
+    display: none;
+}
+
+#email {
+    grid-area: email;
+}
+#password {
+    grid-area: password;
+}
+#confirmPassword{
+    grid-area: confpass;
+}
+
+#checkbox {
+    grid-area: inpC;
+}
+
+.labs {
+    grid-area: lab;
+}
+
+.cont-check-log {
+    grid-area: cont;
+    display: grid;
+    grid-template-columns: 15px 340px;
+    grid-template-rows: 15px 25px;
+    grid-template-areas: 
+    'inpC lab'
+    '. four';
+    grid-row-gap: 20px;
+}
+
+.one {
+    grid-area: one;
+}
+.two {
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.four {
+    grid-area: four;
+}
+
+.register-form {
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: 45px 70px 65px 70px 65px 70px 40px 60px 2px 23px 70px;
+    grid-template-areas: 
+    'h3'
+    'email'
+    'one'
+    'password'
+    'two'
+    'confpass'
+    'three'
+    'cont'
+    'four'
+    'p'
+    'button';
+}
+
+.input-style {
+    border-radius: 5px;
+    background-color: rgba(243, 114, 59, 0.863);
+    border: none;
+    padding-left: 10px;
+    justify-self: center;
+}
+
+::placeholder {
+    color: #f3cd8f;
+    font-size: 16px;
+}
+
+.registerBtn {
+    border-radius: 8px;
+    border: none;
+    color: #151329ff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.registerBtn {
+    grid-area: button;
+    justify-self: center;
+    background-color: #E93852ff;
+}
+
+.form-control {
+    font-size: 1rem;
+    color: #F3733Bff;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #f3cd8f;
+    margin: 0;
+    font: inherit;
+    color: #F3733Bff;
+    border: 2px solid currentColor;
+    border-radius: 2px;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+
+.form-control + .form-control {
+    margin-top: 1em;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 30ms transform ease-in-out;
+    background-color: #F3733Bff;
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.register-form p {
+    justify-self: center;
+    grid-area: p;
+    color: #f3cd8f;
+}
+
+.register-form p button{
+    all: unset;
+    color: #EF483Eff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register-form h3,
+.input-style,
+.form-error-r,
+.cont-check,
+.register-form p,
+.registerBtn {
+    max-width: 400px;
+    width: 100%;
+    min-width: 200px;
+    height: 6%;
+    min-height: 60px;
+}
+/* MODALE CONFERMA REGISTRAZIONE */
+
+.register-message {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(21, 19, 41, 0.849);
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+
+.message-container {
+    position: absolute;
+    width: 60vh;
+    height: 32vh;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 90px 4px #07060c;
+}
+
+.mask-message-container {
+    position: absolute;
+    width: 60vh;
+    height: 39vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: #F3733Bff;
+    --mask: radial-gradient(35px at 100% 0,#0000 98%,#000);
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.close-message {
+    width: 50px;
+    height: 50px;
+    background-color: #E93852ff;
+    color: #f3cd8f;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    right: 0;
+    top: -11%;
+    z-index: 1;
+    transform: translate(50%, -50%) rotate(0) scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.close-message:hover {
+    transform: translate(50%, -50%) rotate(360deg) scale(1.2);
+}
+
+.mask-message-container h3 {
+    color: #E93852ff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.message {
+    width: 60%;
+    height: 90px;
+    color: #f3cd8f;
+    text-align: center;
+    font-size: 25px;
+}
+
+.mask-message-container p {
+    font-size: 20px;
+    color: #f3cd8f;
+}
+
+.mask-message-container p a{
+    color: #E93852ff;
+    text-decoration: none;
+}
+
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
